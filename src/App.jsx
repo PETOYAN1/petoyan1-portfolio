@@ -7,6 +7,8 @@ import { Home } from "./components/sections/Home.jsx";
 import { About } from "./components/sections/About.jsx";
 import { Projects } from "./components/sections/Projects.jsx";
 import { Contact } from './components/sections/Contact.jsx';
+import { Resume } from './components/sections/Resume.jsx';
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -22,6 +24,7 @@ function App() {
         <About />
         <Projects />
         <Contact />
+        <Resume />
       </div>
     </>
   )
